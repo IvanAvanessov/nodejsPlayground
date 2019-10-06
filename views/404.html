@@ -1,0 +1,18 @@
+
+<div class = "d-flex justify-content-center text-center">
+	
+	<script type="text/javascript">
+		var success = "{{success}}"
+		var message = "{{message}}"
+		var msgClass = ""
+		if (success == "true"){ //wrap message into green
+			msgClass = "alert-success"
+		} else { //wrap message into red
+			msgClass = "alert-danger"
+		}
+		if (message) {
+			//document.write("<p> {{message}} </p>")
+			document.write('<div class="alert ' + msgClass + ' "> {{message}} </div>')
+		}
+	</script>
+</div>
