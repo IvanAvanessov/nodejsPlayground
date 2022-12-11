@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "env2": "^2.2.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "handlebars": "^4.4.2",
     "hapi": "^16.7.0",
     "hapi-error": "^1.8.0",
